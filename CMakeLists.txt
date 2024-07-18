@@ -17,7 +17,7 @@ add_executable(pomodoro ${SOURCES})
 # Set include directories for the target
 target_include_directories(pomodoro
         PRIVATE
-        ${PROJECT_SOURCE_DIR}/include
+        ${PROJECT_SOURCE_DIR}/inc
 )
 
 # Find and link pthread for threading support
